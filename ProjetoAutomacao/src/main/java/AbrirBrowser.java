@@ -11,7 +11,7 @@ public class AbrirBrowser {
 		driver.manage().window().maximize();
 		driver.get("http://google.com");
 		Assert.assertEquals("Google", driver.getTitle());
-		driver. quit();
+		driver.quit();
 		
 
 	}
